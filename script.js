@@ -87,7 +87,7 @@ xhr.addEventListener('readystatechange', function () {
 });
 
 xhr.open('GET', 'https://odds.p.rapidapi.com/v4/sports/soccer_brazil_campeonato/scores?daysFrom=3');
-xhr.setRequestHeader('X-RapidAPI-Key', '9f680892cbmsheb7ae43c86f2053p10994fjsnd2f0b4ea95b9');
+xhr.setRequestHeader('X-RapidAPI-Key', 'YOUR API KEY HERE');
 xhr.setRequestHeader('X-RapidAPI-Host', 'odds.p.rapidapi.com');
 
 xhr.send(data);
